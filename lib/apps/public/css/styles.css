@@ -9,5 +9,18 @@ Globals
   padding-top: 60px;
   text-align: center;
   width: 100%;
-  font-size: 2em;
+  
+}
+
+/* keys */
+#keys {
+  font-size: 5em;
+}
+
+.key {
+  padding: 0 2% 0 2%;
+}
+
+.upper {
+  display: block;
 }
