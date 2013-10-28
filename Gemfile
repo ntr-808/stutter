@@ -1,0 +1,13 @@
+#source 'https://rubygems.org'
+source 'http://rubygems.org'
+ruby '2.0.0'
+
+gem 'sinatra'
+gem 'pry'
+gem 'pry-remote'
+gem 'pry-byebug'
+gem 'foreman'
+gem 'haml'
+gem 'coffee-script'
+gem 'thin'
+gem 'rspec'
