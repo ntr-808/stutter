@@ -10,6 +10,6 @@ get '/' do
   haml :app, { :layout => :layout }
 end
 
-get '/js/ampify.js' do
-  coffee :ampify
+get '/js/stutter.js' do
+  coffee :stutter
 end

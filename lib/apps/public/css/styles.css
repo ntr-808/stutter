@@ -15,12 +15,35 @@ Globals
 /* keys */
 #keys {
   font-size: 5em;
+  padding-top: 50px;
 }
 
 .key {
   padding: 0 2% 0 2%;
 }
 
-.upper {
+.activeKey {
+  text-shadow: 0 0 10px green;
+}
+
+.keyRow {
   display: block;
 }
+
+
+/* flashes */
+@-webkit-keyframes keyFlashHit {
+    0% {
+      text-shadow: 0 0 15px rgba(255, 215, 0, 1)
+    }
+    100% {
+      text-shadow: 0 0 15px rgba(255, 215, 0, 0)
+    }
+}
+    
+.keyFlashHit {
+    -webkit-animation-name: keyFlashHit;
+    -webkit-animation-duration: 300ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}    
